@@ -1,4 +1,4 @@
-# dobby-ai-com
+# Dobby AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dobby-ai-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dobby-ai.com/
+Dobby AI provides a Data Policy Platform for AI, offering a control plane with multiple compliance modules. It helps organizations automate evidence collection for AI regulations, featuring a flagship Fintech AI Evidence module and integrations with Stripe and analytics tools.
+
+**Areas:** AI · Compliance · DataPolicy · Fintech · Platform
+
+## Dobby AI on APIs.io
+
+Everything profiled for Dobby AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dobby-ai-com/](https://apis.io/providers/dobby-ai-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Dobby Platform API](https://apis.io/apis/dobby-ai-com/dobby-platform-api/) — Programmatic access to Dobby AI platform agents, tasks, approvals, and knowledge base.
+- [Dobby Platform API API](https://apis.io/apis/dobby-ai-com/dobby-platform-api-api/) — The Dobby Platform API provides programmatic access to your AI agents, tasks, approvals, and knowledge base (RAG).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Dobby Ai Com Webhooks](https://apis.io/asyncapis/dobby-ai-com/dobby-ai-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agent](https://apis.io/schemas/dobby-ai-com/dobby-ai-com-agent/)
+- [ApiKey](https://apis.io/schemas/dobby-ai-com/dobby-ai-com-api-key/)
+- [Approval](https://apis.io/schemas/dobby-ai-com/dobby-ai-com-approval/)
+- [ControlVerdict](https://apis.io/schemas/dobby-ai-com/dobby-ai-com-control-verdict/)
+- [Integration](https://apis.io/schemas/dobby-ai-com/dobby-ai-com-integration/)
+- [Policy](https://apis.io/schemas/dobby-ai-com/dobby-ai-com-policy/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dobby Ai Com Context](https://apis.io/jsonld/dobby-ai-com/dobby-ai-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dobby AI API Rules](https://apis.io/rules/dobby-ai-com/dobby-ai-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dobby Ai Com Domain Security](https://apis.io/security/dobby-ai-com/dobby-ai-com-domain-security/)
+- [Dobby Ai Com Trust Center](https://apis.io/security/dobby-ai-com/dobby-ai-com-trust-center/)
+- [Dobby Ai Com Vulnerability Disclosure](https://apis.io/security/dobby-ai-com/dobby-ai-com-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dobby Ai Com Rate Limits](https://apis.io/rate-limits/dobby-ai-com/dobby-ai-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dobby-ai.com/)
+- [Documentation](https://dobby-ai.com/docs)
+- [Getting started](https://dobby-ai.com/docs/quick-start)
+- [API reference](https://dobby-ai.com/api/docs)
+- [Pricing](https://dobby-ai.com/pricing)
+- [Support](https://dobby-ai.com/help)
+- [Changelog](https://dobby-ai.com/docs/changelog)
+- [Blog](https://dobby-ai.com/blog)
+- [Compliance](https://dobby-ai.com/trust)
+- [Terms of service](https://dobby-ai.com/terms)
+- [Privacy policy](https://dobby-ai.com/privacy)
+- [Status](https://status.dobby-ai.com/)
+
+## API Evangelist rating
+
+**Kin Score 64.4** — strong · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 78.4 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 60.5 |
+
+**Agent readiness 39.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dobby-ai-com/](https://apis.io/providers/dobby-ai-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dobby AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dobby-ai-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
